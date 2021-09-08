@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const DepositAddressPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Deposit Address Page</Box>;
 };
 
 export default DepositAddressPage;

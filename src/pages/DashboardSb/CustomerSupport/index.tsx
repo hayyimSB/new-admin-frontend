@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const CustomerSupportPage: React.FC = () => {
   // const classes = styles();
-  return <Box>Customer Supprot Dashboard Component</Box>;
+  return <Box>Customer Supprot Dashboard Page</Box>;
 };
 
 export default CustomerSupportPage;

@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const CoinManagementPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Master Coin Management Page</Box>;
 };
 
 export default CoinManagementPage;

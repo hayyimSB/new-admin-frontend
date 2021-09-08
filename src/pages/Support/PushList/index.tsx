@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const PushListPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Push List Page</Box>;
 };
 
 export default PushListPage;

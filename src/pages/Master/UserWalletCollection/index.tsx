@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const UserWalletCollectionPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>User Wallet Collection Page</Box>;
 };
 
 export default UserWalletCollectionPage;

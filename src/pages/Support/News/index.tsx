@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const NewsPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>News Page</Box>;
 };
 
 export default NewsPage;

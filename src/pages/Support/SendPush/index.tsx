@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const SendPushPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Send Push page</Box>;
 };
 
 export default SendPushPage;

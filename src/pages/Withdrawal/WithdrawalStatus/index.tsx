@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const WithdrawalStatus: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Withdrawal Status page</Box>;
 };
 
 export default WithdrawalStatus;

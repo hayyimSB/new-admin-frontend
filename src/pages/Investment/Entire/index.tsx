@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const EntireInvestmentPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Entire Investment Page</Box>;
 };
 
 export default EntireInvestmentPage;
