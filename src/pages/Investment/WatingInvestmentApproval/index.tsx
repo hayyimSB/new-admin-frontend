@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const WaitingInvestmentApprovalPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Waiting investment Approval Page</Box>;
 };
 
 export default WaitingInvestmentApprovalPage;

@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const WaitingWithdrawalApprovalPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Waiting Withdrawal Approval Page</Box>;
 };
 
 export default WaitingWithdrawalApprovalPage;

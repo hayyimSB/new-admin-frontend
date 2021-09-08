@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const UserAccessHistoryPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>User Access History Page</Box>;
 };
 
 export default UserAccessHistoryPage;

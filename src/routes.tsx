@@ -144,9 +144,8 @@ const SendPush = Loadable(lazy(() => import('./pages/Support/SendPush')));
 const AccessHistory = Loadable(lazy(() => import('./pages/User/AccessHistory')));
 const Deregister = Loadable(lazy(() => import('./pages/User/Deregister')));
 const DormantAccount = Loadable(lazy(() => import('./pages/User/DormantAccount')));
-const EntireSearch = Loadable(lazy(() => import('./pages/User/EntireSearch')));
+const UserSearch = Loadable(lazy(() => import('./pages/User/Search')));
 const Membership = Loadable(lazy(() => import('./pages/User/Membership')));
-const PersonalSearch = Loadable(lazy(() => import('./pages/User/PersonalSearch')));
 const UserWaitingApproval = Loadable(lazy(() => import('./pages/User/WaitingApproval')));
 
 const routes: PartialRouteObject[] = [
@@ -191,28 +190,6 @@ const routes: PartialRouteObject[] = [
       },
     ],
   },
-  // {
-  //   path: "blog",
-  //   element: <BlogLayout />,
-  //   children: [
-  //     {
-  //       path: "/",
-  //       element: <BlogPostList />,
-  //     },
-  //     {
-  //       path: "new",
-  //       element: <BlogPostCreate />,
-  //     },
-  //     {
-  //       path: ":postId",
-  //       element: <BlogPostDetails />,
-  //     },
-  //   ],
-  // },
-  // {
-  //   path: "contact",
-  //   element: <Contact />,
-  // },
   {
     path: '*',
     element: (
@@ -260,15 +237,15 @@ const routes: PartialRouteObject[] = [
         children: [
           {
             path: 'address',
-            element: <WaitingWithdrawalApproval />,
-          },
-          {
-            path: 'status',
             element: <WithdrawalAddress />,
           },
           {
-            path: 'waiting-approval',
+            path: 'status',
             element: <WithdrawalStatus />,
+          },
+          {
+            path: 'waiting-approval',
+            element: <WaitingWithdrawalApproval />,
           },
         ],
       },
@@ -352,7 +329,7 @@ const routes: PartialRouteObject[] = [
           },
           {
             path: 'search',
-            element: <EntireSearch />,
+            element: <UserSearch />,
           },
           {
             path: 'membership',

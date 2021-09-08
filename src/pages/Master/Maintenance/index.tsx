@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const MaintenanacePage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Maintenance Page</Box>;
 };
 
 export default MaintenanacePage;

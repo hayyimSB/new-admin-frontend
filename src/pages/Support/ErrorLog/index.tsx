@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const ErrorLog: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Error Log Page</Box>;
 };
 
 export default ErrorLog;

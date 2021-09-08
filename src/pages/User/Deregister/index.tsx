@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const UserDeregisterPage: React.FC = () => {
   // const classes = styles();
-  return <Box>LoadingComponent</Box>;
+  return <Box>Deregister Page</Box>;
 };
 
 export default UserDeregisterPage;

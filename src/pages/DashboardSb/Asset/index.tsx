@@ -4,7 +4,7 @@ import { Box } from '@material-ui/core';
 
 export const AssetPage: React.FC = () => {
   // const classes = styles();
-  return <Box>Customer Supprot Dashboard Component</Box>;
+  return <Box>Asset Dashboard Component</Box>;
 };
 
 export default AssetPage;
